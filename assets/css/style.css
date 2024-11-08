@@ -1,3 +1,49 @@
-/* .navbar-brand {
+.main {
+    margin: 2rem 0;
+}
+
+.navbar-nav .nav-link {
+    color: #3b2f2f !important;
+}
+
+h1, .lead{
+    font-family: 'Handlee', cursive;
+    color: #FFEBD4;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Handlee', cursive;
     color: #3b2f2f;
-} */
+}
+.hero {
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Designer.png') no-repeat center center;
+    background-size: cover;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+/* Style the footer */
+.footer {
+    margin-top: auto;
+    background-color: #6F4E37;
+    color: #FFEBD4;
+}
+
+.fa-brands {
+    color: #FFEBD4;
+}
