@@ -76,13 +76,9 @@ main {
 }
 
 /* Set the size of the testimonial images */
-.testimonial-image {
+.testimonial-img {
     width: 100px;
     height: 100px;
-}
-
 /* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
-.rounded-image {
-    border-radius: 15px;
-    /* Adjust the px value as needed */
+    border-radius: 50%;
 }
